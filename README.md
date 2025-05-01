@@ -27,7 +27,7 @@ A simple full-stack web app to write, save, and delete your daily thoughts, feat
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone (https://github.com/pawan-25k/Daily-quote-journal.git)
 cd your-repo-name
 ```
 
