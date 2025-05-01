@@ -61,21 +61,6 @@ node backend/server.js
 🔝 script.js         # Frontend logic
 ```
 
----
-
-### 🌐 Live Demo
-
-*Coming soon!* (Deploy using Netlify + Render)
-
----
-
-### 🙌 Acknowledgements
-
-- Quote API by [ZenQuotes](https://zenquotes.io/)
-
----
-
-### 📌 To-Do Ideas
 
 - [ ] Add edit functionality
 - [ ] Add dark mode toggle
