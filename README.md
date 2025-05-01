@@ -1,0 +1,1 @@
+# Daily-quote-journal
