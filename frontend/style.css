@@ -1,0 +1,124 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f6f7;
+  color: #080101;
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+
+  background-size: cover;
+  background-position: center;
+  animation: bgChange 20s infinite;
+}
+
+/* Heading */
+h1, h2 {
+  text-align: center;
+  color: #000407;
+}
+
+/* Quote Box */
+.quote {
+  background-color: #fff;
+  border-left: 6px solid #3498db;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 10px;
+}
+
+#quote-text {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #050000;
+}
+
+#quote-author {
+  text-align: right;
+  font-weight: bold;
+  color: solid #010b0c;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: rgba(191, 211, 216, 0.5);
+  border: 1px solid #acddee;
+  border-radius: 8px;
+  resize: vertical;
+  margin-top: 10px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Button */
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fafbfc;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.entries-container {
+  background-color: rgba(191, 211, 216, 0.5); 
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+  margin-top: 10px;
+  resize: vertical;         
+  width: 100%;               
+  
+}
+
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Entries */
+.entry {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0 4px 10px rgba(168, 51, 51, 0.05);
+}
+
+.entry p {
+  margin: 6px 0;
+}
+
+.entry hr {
+  margin-top: 10px;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+.delete-button {
+  background-color: #0e9cdf;
+  color: rgb(20, 174, 212);
+  border: none;
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #124ebe;
+}
+
+/* Background Image Animation */
+@keyframes bgChange {
+  0%   { background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg'); }
+  33%  { background-image: url('https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg'); }
+  66%  { background-image: url('https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg'); }
+  100% { background-image: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg'); }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Quote Journal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <div class="background-slider"></div>
+
+  <div class="container">
+    <h1>🌟 Daily Quote Journal 🌟</h1>
+
+    <div id="quote-box">
+      <p id="quote">Loading quote...</p>
+      <p id="author"></p>
+    </div>
+
+    <textarea id="entry" placeholder="Write your thoughts here..."></textarea>
+    <button id="save-btn">Save Entry</button>
+
+    <div class="entries-container">
+      <h2>📘 Your Entries</h2>
+      
+      <ul id="entries-list"></ul>
+    </div>
+    
+    <ul id="entries-list"></ul>
+
+    
+    <div id="error-message" style="color: red; text-align: center;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
