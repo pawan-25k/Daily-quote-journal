@@ -60,10 +60,3 @@ node backend/server.js
 🔝 style.css         # Styling
 🔝 script.js         # Frontend logic
 ```
-
-
-- [ ] Add edit functionality
-- [ ] Add dark mode toggle
-- [ ] Save entries in localStorage or a real database
-- [ ] Mobile responsiveness
-
