@@ -5,7 +5,8 @@ const app = express();
 const fetch = require('node-fetch');
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
+app.use(cors({ origin: 'https://daily-j.netlify.app' }));
+
 app.use(express.json());
 
 const ENTRIES_FILE = 'backend/entries.json';
