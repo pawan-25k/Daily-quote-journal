@@ -9,7 +9,7 @@ app.use(cors({ origin: 'https://daily-j.netlify.app' }));
 
 app.use(express.json());
 
-const ENTRIES_FILE = 'backend/entries.json';
+const ENTRIES_FILE = 'entries.json';
 
 // GET random quote
 app.get('/quote', async (req, res) => {
