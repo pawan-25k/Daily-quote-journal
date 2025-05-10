@@ -1,6 +1,6 @@
 # 🌟 Daily Quote Journal 📝
 
-A motivational journal app that inspires you with a daily quote and lets you write, edit, and manage your personal entries. Built with vanilla JavaScript and Express.js — and deployed live using Netlify (frontend) and Render (backend)!
+A motivational journal app that inspires you with a daily quote and lets you write, edit, and manage your personal entries. Built with vanilla JavaScript and Express.js and deployed live using Netlify (frontend) and Render (backend)!
 
 
 ## ✨ Features
