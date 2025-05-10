@@ -1,52 +1,28 @@
-# Daily-quote-journal
-## 📝 Daily Journal Web App
+# 🌟 Daily Quote Journal 📝
 
-A simple full-stack web app to write, save, and delete your daily thoughts, featuring an inspirational quote every time you visit.
+A motivational journal app that inspires you with a daily quote and lets you write, edit, and manage your personal entries. Built with vanilla JavaScript and Express.js — and deployed live using Netlify (frontend) and Render (backend)!
 
-### ✨ Features
 
-- Get a random inspirational quote
-- Add new journal entries
-- View all past entries
-- Delete entries you no longer want
-- All entries saved locally in a JSON file (server-side)
+## ✨ Features
 
----
-
-### 💻 Tech Stack
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express
-- **Data Storage**: JSON file (`entries.json`)
-- **API**: [ZenQuotes API](https://zenquotes.io/)
+- 📜 Fetches a random motivational quote from [ZenQuotes API](https://zenquotes.io/)
+- 📝 Write and save your daily thoughts
+- ✏️ Edit entries in-place
+- 🗑️ Delete entries
+- 💾 Data stored in a simple JSON file on the backend
+- 🌍 Fully deployed and accessible online
 
 ---
 
-### ⚛️ How to Run Locally
+## 🧰 Tech Stack
 
-1. **Clone the repo**
-
-```bash
-git clone (https://github.com/pawan-25k/Daily-quote-journal.git)
-cd your-repo-name
-```
-
-2. **Install dependencies**
-
-```bash
-npm install
-```
-
-3. **Start the server**
-
-```bash
-node backend/server.js
-```
-
-4. **Open `index.html`** in your browser  
-> Or run a Live Server if you're using VS Code
+- **Frontend**: HTML, CSS, JavaScript (Vanilla)
+- **Backend**: Node.js, Express.js
+- **API**: [ZenQuotes](https://zenquotes.io/)
+- **Deployment**: Netlify (frontend), Render (backend)
 
 ---
+
 
 ### 🗃️ Project Structure
 
