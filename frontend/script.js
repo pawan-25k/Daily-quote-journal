@@ -3,7 +3,7 @@ const authorEl = document.getElementById('author');
 const entryInput = document.getElementById('entry');
 const saveBtn = document.getElementById('save-btn');
 const entriesList = document.getElementById('entries-list');
-const API_URL = 'https://daily-quote-vnwg.onrender.com';
+const API_URL = 'https://daily-quote-journal-2.onrender.com';
 
 // Load quote on page load
 fetch(`${API_URL}/quote`)
